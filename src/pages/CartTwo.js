@@ -10,7 +10,7 @@ const CartTwo = () => {
   const [orderPrice, setOrderPrice] = useState([]);
   const token = localStorage.getItem('token');
 
-  // 백엔드용 확인
+  // 백엔드용
   // useEffect(() => {
   //   const fetchCartData = async () => {
   //     try {
